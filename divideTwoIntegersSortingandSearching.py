@@ -75,4 +75,4 @@ def divide(self, dividend: int, divisor: int) -> int:
     # If there was originally one negative sign, then
     # the quotient remains negative. Otherwise, switch
     # it to positive.
-    return -quotient if negatives != 1 else quotient
+    return -quotient if negatives != 1 else quotient  
