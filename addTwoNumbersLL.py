@@ -18,10 +18,10 @@ class Solution:
     
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         
-        # create an empty LL pointer and assigne a next variable that points to the start
+        # create an empty LL pointer and assign a next variable that points to the start
         linkedListOut = ListNode()
         nextNode = linkedListOut
-        numberToCarry = 0 # this is the number to carry
+        numberToCarry = 0 # this is the number to carry during addition of the nodes    
         
         while any([l1,l2,numberToCarry]): # this any() is a boolean check for any of these variable being True
             # parse out the variables from the two given linked lists 
